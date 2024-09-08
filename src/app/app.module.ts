@@ -25,6 +25,7 @@ import { HomePageFooterComponent } from './shared components/home-page-footer/ho
 import { EventsComponent } from './component/events/events.component';
 import { AcademicProgramComponent } from './component/academic-program/academic-program.component';
 import { ForgotPasswordComponent } from './component/forgot-password/forgot-password.component';
+import { SignupComponent } from './component/signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { ForgotPasswordComponent } from './component/forgot-password/forgot-pass
     HomePageFooterComponent,
     EventsComponent,
     AcademicProgramComponent,
-    ForgotPasswordComponent
+    ForgotPasswordComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
