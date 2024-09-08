@@ -18,6 +18,8 @@ import { FaqsComponent } from './component/faqs/faqs.component';
 import { EventsComponent } from './component/events/events.component';
 import { AcademicProgramComponent } from './component/academic-program/academic-program.component';
 import { ForgotPasswordComponent } from './component/forgot-password/forgot-password.component';
+import { SignupComponent } from './component/signup/signup.component';
+import { PrivacyPolicyComponent } from './component/privacy-policy/privacy-policy.component';
 
 const routes: Routes = [
   {path:'', component:HomeComponent},
@@ -33,12 +35,13 @@ const routes: Routes = [
   {path:'login', component:LoginComponent},
   {path:'contact', component:ContactUsComponent},
   {path:'tech_support', component:TechSupportComponent},
-  {path:'privacy_policy', component:FeeComponent},
+  {path:'privacy_policy', component:PrivacyPolicyComponent},
   {path:'employment', component:EmploymentComponent},
   {path:'faq', component:FaqsComponent},
   {path:'eventsDetail', component:EventsComponent},
   {path:'academicProgram', component:AcademicProgramComponent},
   {path:'forgotpassword', component:ForgotPasswordComponent},
+  {path:'signup', component:SignupComponent}
 ];
 
 @NgModule({
