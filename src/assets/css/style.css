@@ -366,12 +366,12 @@ ul.ct_dropdown_menu {
 /* Banner section S */
 .ct_banner_bg{
     background-color: #FBF1E3;
-    height: 100vh;
+    /* height: 100vh; */
    
 }
 
 .ct_banner_section {
-    height: calc(100vh - 138px);
+    /* height: calc(100vh - 138px); */
     /* height: 100%; */
     display: flex;
     align-items: end;
@@ -483,16 +483,20 @@ ul.ct_dropdown_menu {
     filter: invert(1);
 }
 
-.ct_section_right_cnt{
+.ct_section_right_cnt {
     position: relative;
     z-index: 1;
-    padding-bottom: 40px;
+    padding-block: 140px;
 }
 .ct_section_right_cnt > img{
     position: absolute;
     bottom: 0px;
     right: 0px;
     width: 100px;
+}
+
+.ct_navbar.ct_sticky_menu:after{
+    display: none;
 }
 /* Banner section E */
 
@@ -610,9 +614,9 @@ ul.ct_dropdown_menu {
 .ct_px_140{
    padding-inline: 140px
 }
-.ct_why_inroll_right_img img {
+/* .ct_why_inroll_right_img img {
     filter: blur(1px);
-}
+} */
 /* Why Inroll Section  E */
 
 
@@ -763,6 +767,7 @@ footer:before{
     border-radius: 57px;
     position: relative;
     z-index: 1;
+    margin: -1px;
 }
 .ct_newletter_div:after{
     content: "";
@@ -1831,7 +1836,7 @@ box-shadow: unset;
     z-index: 9;
     animation: slideDown 0.35s ease-out;
     left: 0px;
-    padding-inline: 120px;
+    padding-inline: 70px;
 }
 @keyframes slideDown {
     from {
